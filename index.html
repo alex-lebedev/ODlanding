@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интенсив «Открытого диалога» с Александром Лебедевым</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #88d3e6;
+            padding: 60px 20px;
+            text-align: center;
+            color: white;
+            background-image: url('header-background.jpg'); /* Заменить на реальное изображение */
+            background-size: cover;
+            background-position: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 15px 0;
+            font-size: 1.2em;
+        }
+        nav {
+            background-color: #ffffff;
+            padding: 10px 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #88d3e6;
+        }
+        section {
+            padding: 80px 20px;
+            max-width: 1000px;
+            margin: auto;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 2.2em;
+            color: #88d3e6;
+            margin-bottom: 20px;
+        }
+        section p {
+            font-size: 1.1em;
+            color: #555;
+            margin-bottom: 40px;
+        }
+        .cta-button {
+            padding: 15px 30px;
+            background-color: #88d3e6;
+            color: white;
+            border-radius: 50px;
+            font-size: 1.2em;
+            text-decoration: none;
+            transition: background-color 0.3s, transform 0.3s;
+            box-shadow: 0 4px 10px rgba(136, 211, 230, 0.3);
+        }
+        .cta-button:hover {
+            background-color: #5fb5c6;
+            transform: translateY(-3px);
+        }
+        .placeholder-image {
+            background-color: #e0f2f8;
+            width: 100%;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #88d3e6;
+            font-size: 1.5em;
+            margin-bottom: 40px;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #f1f1f1;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Интенсив «Открытого диалога»</h1>
+    <p>Научный подход к целям и устойчивости с Александром Лебедевым</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#about">О программе</a></li>
+        <li><a href="#methodology">Методология</a></li>
+        <li><a href="#schedule">Программа интенсива</a></li>
+        <li><a href="#testimonials">Отзывы</a></li>
+        <li><a href="#signup">Регистрация</a></li>
+    </ul>
+</nav>
+
+<section id="about">
+    <h2>Новый год — новые цели</h2>
+    <p>Приглашаем вас на пятидневный интенсив, который поможет вам превратить намерения в реальные результаты. Научитесь достигать устойчивости и здоровой коммуникации — с собой и окружающим миром.</p>
+    <div class="placeholder-image">[Изображение участника/графики]</div>
+</section>
+
+<section id="methodology">
+    <h2>Научная база Открытого Диалога</h2>
+    <p>Программа основана на функциональных системах П.К. Анохина, кибернетике и нейронауках. Этот интенсив поможет вам освоить методы, проверенные десятилетиями исследований и практики.</p>
+    <div class="placeholder-image">[Научные данные / графики]</div>
+</section>
+
+<section id="schedule">
+    <h2>Что вы изучите на интенсиве?</h2>
+    <div class="placeholder-image">[Таблица расписания]</div>
+    <p>5 дней с погружением в ключевые принципы устойчивости, целеполагания и работы с внутренними блоками. Интенсив структурирован так, чтобы обеспечить глубокое понимание и практическое применение.</p>
+</section>
+
+<section id="testimonials">
+    <h2>Отзывы участников</h2>
+    <div class="placeholder-image">[Отзывы и цитаты]</div>
+</section>
+
+<section id="signup">
+    <h2>Готовы к новому началу?</h2>
+    <p>Интенсив пройдет с 2 по 6 декабря. Стоимость участия — 15 000 рублей. Если вы не ощутите эффекта, мы вернем вам деньги без вопросов.</p>
+    <a href="#register-form" class="cta-button">Зарегистрироваться</a>
+</section>
+
+<section id="register-form">
+    <h2>Оставить заявку</h2>
+    <form action="#" method="post" style="max-width: 600px; margin: auto; text-align: left;">
+        <label for="name">Имя:</label><br>
+        <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; margin-bottom: 20px;"><br>
+        <label for="email">Электронная почта:</label><br>
+        <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; margin-bottom: 20px;"><br>
+        <label for="message">Сообщение:</label><br>
+        <textarea id="message" name="message" rows="4" required style="width: 100%; padding: 10px; margin-bottom: 20px;"></textarea><br>
+        <button type="submit" class="cta-button">Отправить заявку</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Интенсив «Открытого диалога» с Александром Лебедевым. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
